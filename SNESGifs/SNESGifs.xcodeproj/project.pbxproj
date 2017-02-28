@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8423149C642B2B1E8E065166 /* Pods_BeerGIFs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3059CEE3FC7B396AB74F1B3E /* Pods_BeerGIFs.framework */; };
+		8423149C642B2B1E8E065166 /* Pods_SNESGifs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3059CEE3FC7B396AB74F1B3E /* Pods_SNESGifs.framework */; };
+		8E4050102B4392E34D417809 /* Pods_SNESGifs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6830310B180B640340EB1D /* Pods_SNESGifs.framework */; };
 		E08402B21E60D36A002D28A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08402B11E60D36A002D28A4 /* AppDelegate.swift */; };
 		E08402B41E60D36A002D28A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08402B31E60D36A002D28A4 /* ViewController.swift */; };
 		E08402B71E60D36A002D28A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08402B51E60D36A002D28A4 /* Main.storyboard */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		010E3F284C2414B6E33A3D94 /* Pods-BeerGIFs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerGIFs.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeerGIFs/Pods-BeerGIFs.release.xcconfig"; sourceTree = "<group>"; };
-		3059CEE3FC7B396AB74F1B3E /* Pods_BeerGIFs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerGIFs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA55B2F05B8CBD0017513315 /* Pods-BeerGIFs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerGIFs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerGIFs/Pods-BeerGIFs.debug.xcconfig"; sourceTree = "<group>"; };
-		E08402AE1E60D36A002D28A4 /* BeerGIFs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerGIFs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010E3F284C2414B6E33A3D94 /* Pods-SNESGifs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNESGifs.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNESGifs/Pods-SNESGifs.release.xcconfig"; sourceTree = "<group>"; };
+		240182587534314903EF82A4 /* Pods-SNESGifs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNESGifs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNESGifs/Pods-SNESGifs.debug.xcconfig"; sourceTree = "<group>"; };
+		3059CEE3FC7B396AB74F1B3E /* Pods_SNESGifs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNESGifs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA55B2F05B8CBD0017513315 /* Pods-SNESGifs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNESGifs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNESGifs/Pods-SNESGifs.debug.xcconfig"; sourceTree = "<group>"; };
+		E08402AE1E60D36A002D28A4 /* SNESGifs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNESGifs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08402B11E60D36A002D28A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08402B31E60D36A002D28A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E08402B61E60D36A002D28A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		E08402BB1E60D36A002D28A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E08402BD1E60D36A002D28A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E08402C31E60D838002D28A4 /* GiphyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyManager.swift; sourceTree = "<group>"; };
+		FB6830310B180B640340EB1D /* Pods_SNESGifs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNESGifs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD91DD6E45CD0B0530D42190 /* Pods-SNESGifs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNESGifs.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNESGifs/Pods-SNESGifs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8423149C642B2B1E8E065166 /* Pods_BeerGIFs.framework in Frameworks */,
+				8423149C642B2B1E8E065166 /* Pods_SNESGifs.framework in Frameworks */,
+				8E4050102B4392E34D417809 /* Pods_SNESGifs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +50,10 @@
 		1576ADA8FA7882043B381970 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA55B2F05B8CBD0017513315 /* Pods-BeerGIFs.debug.xcconfig */,
-				010E3F284C2414B6E33A3D94 /* Pods-BeerGIFs.release.xcconfig */,
+				DA55B2F05B8CBD0017513315 /* Pods-SNESGifs.debug.xcconfig */,
+				010E3F284C2414B6E33A3D94 /* Pods-SNESGifs.release.xcconfig */,
+				240182587534314903EF82A4 /* Pods-SNESGifs.debug.xcconfig */,
+				FD91DD6E45CD0B0530D42190 /* Pods-SNESGifs.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -54,7 +61,7 @@
 		E08402A51E60D369002D28A4 = {
 			isa = PBXGroup;
 			children = (
-				E08402B01E60D36A002D28A4 /* BeerGIFs */,
+				E08402B01E60D36A002D28A4 /* SNESGifs */,
 				E08402AF1E60D36A002D28A4 /* Products */,
 				1576ADA8FA7882043B381970 /* Pods */,
 				F57E59DF49D81CE5A8B995B5 /* Frameworks */,
@@ -64,12 +71,12 @@
 		E08402AF1E60D36A002D28A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E08402AE1E60D36A002D28A4 /* BeerGIFs.app */,
+				E08402AE1E60D36A002D28A4 /* SNESGifs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E08402B01E60D36A002D28A4 /* BeerGIFs */ = {
+		E08402B01E60D36A002D28A4 /* SNESGifs */ = {
 			isa = PBXGroup;
 			children = (
 				E08402B11E60D36A002D28A4 /* AppDelegate.swift */,
@@ -80,13 +87,14 @@
 				E08402BA1E60D36A002D28A4 /* LaunchScreen.storyboard */,
 				E08402BD1E60D36A002D28A4 /* Info.plist */,
 			);
-			path = BeerGIFs;
+			path = SNESGifs;
 			sourceTree = "<group>";
 		};
 		F57E59DF49D81CE5A8B995B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3059CEE3FC7B396AB74F1B3E /* Pods_BeerGIFs.framework */,
+				3059CEE3FC7B396AB74F1B3E /* Pods_SNESGifs.framework */,
+				FB6830310B180B640340EB1D /* Pods_SNESGifs.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E08402AD1E60D36A002D28A4 /* BeerGIFs */ = {
+		E08402AD1E60D36A002D28A4 /* SNESGifs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E08402C01E60D36A002D28A4 /* Build configuration list for PBXNativeTarget "BeerGIFs" */;
+			buildConfigurationList = E08402C01E60D36A002D28A4 /* Build configuration list for PBXNativeTarget "SNESGifs" */;
 			buildPhases = (
 				3C629C7B31DE2CF58E43C730 /* [CP] Check Pods Manifest.lock */,
 				E08402AA1E60D36A002D28A4 /* Sources */,
@@ -109,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = BeerGIFs;
-			productName = BeerGIFs;
-			productReference = E08402AE1E60D36A002D28A4 /* BeerGIFs.app */;
+			name = SNESGifs;
+			productName = SNESGifs;
+			productReference = E08402AE1E60D36A002D28A4 /* SNESGifs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E08402A91E60D369002D28A4 /* Build configuration list for PBXProject "BeerGIFs" */;
+			buildConfigurationList = E08402A91E60D369002D28A4 /* Build configuration list for PBXProject "SNESGifs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E08402AD1E60D36A002D28A4 /* BeerGIFs */,
+				E08402AD1E60D36A002D28A4 /* SNESGifs */,
 			);
 		};
 /* End PBXProject section */
@@ -174,7 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerGIFs/Pods-BeerGIFs-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNESGifs/Pods-SNESGifs-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		13E7D1B7556F8AFA93E2678E /* [CP] Embed Pods Frameworks */ = {
@@ -189,7 +197,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeerGIFs/Pods-BeerGIFs-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNESGifs/Pods-SNESGifs-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3C629C7B31DE2CF58E43C730 /* [CP] Check Pods Manifest.lock */ = {
@@ -337,12 +345,12 @@
 		};
 		E08402C11E60D36A002D28A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA55B2F05B8CBD0017513315 /* Pods-BeerGIFs.debug.xcconfig */;
+			baseConfigurationReference = 240182587534314903EF82A4 /* Pods-SNESGifs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BeerGIFs/Info.plist;
+				INFOPLIST_FILE = SNESGifs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.BeerGIFs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.SNESGifs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -350,12 +358,12 @@
 		};
 		E08402C21E60D36A002D28A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 010E3F284C2414B6E33A3D94 /* Pods-BeerGIFs.release.xcconfig */;
+			baseConfigurationReference = FD91DD6E45CD0B0530D42190 /* Pods-SNESGifs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BeerGIFs/Info.plist;
+				INFOPLIST_FILE = SNESGifs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.BeerGIFs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.SNESGifs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -364,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E08402A91E60D369002D28A4 /* Build configuration list for PBXProject "BeerGIFs" */ = {
+		E08402A91E60D369002D28A4 /* Build configuration list for PBXProject "SNESGifs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E08402BE1E60D36A002D28A4 /* Debug */,
@@ -373,7 +381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E08402C01E60D36A002D28A4 /* Build configuration list for PBXNativeTarget "BeerGIFs" */ = {
+		E08402C01E60D36A002D28A4 /* Build configuration list for PBXNativeTarget "SNESGifs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E08402C11E60D36A002D28A4 /* Debug */,
