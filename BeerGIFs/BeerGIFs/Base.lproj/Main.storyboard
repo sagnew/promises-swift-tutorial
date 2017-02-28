@@ -34,6 +34,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OHZ-ei-9tD" secondAttribute="bottom" id="whl-ZL-kqs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="beerGifImageView" destination="OHZ-ei-9tD" id="aDU-2n-0HT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
