@@ -23,10 +23,11 @@ class ViewController: UIViewController {
     giphy.fetchRandomGifUrl(forSearchQuery: "SNES").then { imageUrlString in
       self.fetchImage(forImageUrl: imageUrlString)
     }.then { imageData in
-      self.attachImage(withImage: imageData)
+      self.attachImage(withImageData: imageData)
     }.catch { error in
-        print(error)
+      print(error)
     }
+    
   }
 
   override func didReceiveMemoryWarning() {
@@ -47,7 +48,7 @@ class ViewController: UIViewController {
     }
   }
   
-  func attachImage(withImage imageData: Data) -> Void {
+  func attachImage(withImageData imageData: Data) -> Void {
     print("Displaying image")
     let image = UIImage(gifData: imageData)
     self.beerGifImageView.setGifImage(image)
