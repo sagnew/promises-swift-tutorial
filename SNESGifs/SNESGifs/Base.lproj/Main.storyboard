@@ -35,7 +35,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="beerGifImageView" destination="OHZ-ei-9tD" id="aDU-2n-0HT"/>
+                        <outlet property="snesGifImageView" destination="OHZ-ei-9tD" id="ICB-Cw-Owe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
